@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bezier.css">
+    <script src="bezier.js"></script>
+    <title>Bezier</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">Bezier</div>
+        <div id="content">
+            <div id="left">
+                <div style="background-color:gray; padding-bottom:20px; color:azure;">
+                    <h3>NAVODILA</h3>
+                    <span style="font-size: 15px;">Za risanje, morate na začetku izbrati pod "Izbira risanja" željeno možnost.</span><br><br>
+                    <span style="font-size: 15px;">Ko rišete točke z klikom na platno, prosim da ko izberete zadnjo točko ponovno kliknete na platno in z tem izrišete krivuljo.</span><br><br>
+                    <span style="font-size: 15px;">In vsako krivuljo prosim, da tudi dokončate ko jo začnete risati in ne pustite samo točk.</span>
+                </div>
+                <div style="background-color:gray; padding-top:10px; padding-bottom:20px; color:azure; margin-top: 20px;">
+                    <span>Izbira risanja:</span><br>
+                    <button onClick="choose(1)">Krivulje</button>
+                    <button onClick="choose(2)">Zlepki</button>
+                </div>
+                <div style="background-color:gray; padding-top:10px; color:azure;  margin-top: 20px;">
+                    <span>Izbira barve:</span><br><input type="color" id="myColor"> <!-- #f6b73c --> <br><br><button onclick="myFunction()">Potrdi barvo</button><br><br>
+                </div>
+            </div>
+            <div id="right">
+                <canvas id="canvas" width="1100" height="560"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

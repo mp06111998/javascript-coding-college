@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="margin: 0 auto; padding:20px 20px 20px 20px; height:340px; width:620px; background-color:burlywood;">
+        <h4>1. Domača naloga - splošna naloga</h4>
+        <textarea name="input" id="input" cols="35" rows="10" placeholder="Vnosno polje"></textarea>
+        <textarea readonly name="input" id="input1" cols="35" rows="10" placeholder="Prostor za izpis"></textarea>
+        <div style="margin-top: -120px; margin-left: 550px;">
+        <button style="height: 70px; width: 70px;" onclick="b.create();">Calculate</button>
+        </div>
+        <br>
+        <div style="margin-top: 35px;"><b>Navodila:</b><br>V vnosno polje vnesite vrednosti vektorjev, vedno začnite z črko v, ki pove da gre za vektor in potem nadaljujte z njegovimi vrednostmi v zaporedju x, y, z. To storite na primer "v 1 2 3". In za vsak nov vektor naprimer "v 3 2 4" pojdite v novo vrstico. Ko ste vnesli vse željene vektorje kliknite na gumb Calculate. In ko vpišete zadni vektor ne pojdite v novo vrstico, ker če skočite v novo vrstico to zazna kot nov vnos in ta vnos ni pravilen. Prav tako vmes in na začetku ne imejte praznih vrstic, ker tudi to ni pravilen vnos.</div>
+        <script src="Naloga.js"></script>
+        <script>
+            let b = new PointManager();
+        </script>
+    </div>
+</body>
+
+</html>

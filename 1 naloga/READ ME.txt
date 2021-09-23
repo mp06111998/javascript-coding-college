@@ -1,0 +1,2 @@
+Program prosim poganjajte v Google Chrome.
+Dodatna navodila za uporabo, so napisana ob vnosnem polju vektorjev.

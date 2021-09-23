@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="zogice.css">
+    <title>Zogice</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">Zogice</div>
+        <div id="content">
+            <div id="left">
+                Izberite stevilo zogic:
+                <input type="number" name="name" id="koliko" min="0" max="1000" value="5" onkeydown="return false"/>
+                <br>
+                <br>
+                <button name="mreza" id="mreza" onclick="mreza()">Mreza on/off</button>
+                <!--<div style="background-color:gray; padding-bottom:20px; color:azure;">
+                    <h3>NAVODILA</h3>
+                    <span style="font-size: 15px;">Za risanje, morate na začetku izbrati pod "Izbira risanja" željeno možnost.</span><br><br>
+                    <span style="font-size: 15px;">Ko rišete točke z klikom na platno, prosim da ko izberete zadnjo točko ponovno kliknete na platno in z tem izrišete krivuljo.</span><br><br>
+                    <span style="font-size: 15px;">In vsako krivuljo prosim, da tudi dokončate ko jo začnete risati in ne pustite samo točk.</span>
+                </div>
+                <div style="background-color:gray; padding-top:10px; padding-bottom:20px; color:azure; margin-top: 20px;">
+                    <span>Izbira risanja:</span><br>
+                </div>
+                <div style="background-color:gray; padding-top:10px; color:azure;  margin-top: 20px;">
+                    <span>Izbira barve:</span><br><br>
+                </div>-->
+            </div>
+            <div id="right">
+                <canvas id="my_canvas" width="560" height="560"></canvas><script src="zogice.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

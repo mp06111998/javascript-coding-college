@@ -1,0 +1,42 @@
+#main {
+    height: 705px;
+    width: 820px;
+    margin-left: -6px;
+    background-color: lightgrey;
+}
+
+#head {
+    height: 50px;
+    width: 800px;
+    background-color: gray;
+    color: azure;
+    padding: 10px 0px 0px 20px;
+    font-size: 30px;
+}
+
+#content {
+    height: 645px;
+    width: 800px;
+}
+
+#left {
+    height: 635px;
+    width: 140px;
+    background-color: rgb(184, 184, 184);
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+#right {
+    height: 645px;
+    width: 650px;
+    background-color: lightgrey;
+    float: left;
+}
+
+#canvas {
+    border: 1px solid black;
+    margin: 40px 0px 0px 70px;
+    background-color: white;
+}
